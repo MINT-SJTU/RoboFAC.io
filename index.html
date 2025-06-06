@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+    <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+    <meta property="og:url" content="URL OF THE WEBSITE" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/your_banner_image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction</title>
+    <link rel="icon" type="image/x-icon" href="static/icons/robot.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title"><img src="static/icons/robot.svg" alt="RoboFAC Logo"
+                                style="height: 1em; vertical-align: center;"> RoboFAC: A
+                            Comprehensive Framework for Robotic Failure
+                            Analysis and Correction</h1>
+                        <div class="is-size-5 publication-authors">
+                            <!-- Paper authors -->
+                            <span class="author-block">
+                                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Weifeng
+                                    Lu</a><sup>* 1,2</sup>,</span>
+                            <span class="author-block">
+                                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Minghao Ye</a><sup>*
+                                    1,3</sup>,</span>
+                            <span class="author-block">
+                                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zewei Ye</a><sup>* 1</sup></span>
+                            <span class="author-block">
+                                <a href="Forth AUTHOR PERSONAL LINK" target="_blank">Ruihan Tao</a><sup>1</sup></span>
+                            <span class="author-block">
+                                <a href="Fifth AUTHOR PERSONAL LINK" target="_blank">Shuo Yang</a><sup>3</sup></span>
+                            <span class="author-block">
+                                <a href="Sixth AUTHOR PERSONAL LINK" target="_blank">Bo Zhao</a><sup>1</sup></span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup>School of AI, Shanghai Jiao Tong
+                                University &ensp;&ensp;<sup>2</sup>Xiamen University<br><sup>3</sup>Harbin Institute of
+                                Technology, Shenzhen<br>Preprint Now</span>
+                            <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution</small></span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- Arxiv PDF link -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/pdf/2505.12224" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
+
+                                <!-- Github link -->
+                                <span class="link-block">
+                                    <a href="https://github.com/MINT-SJTU/RoboFAC" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+
+                                <!-- ArXiv abstract Link -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2505.12224" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+
+                                <!-- Dataset link -->
+                                <span class="link-block">
+                                    <a href="https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <img src="static/icons/huggingface.svg" alt="Hugging Face Logo"
+                                                style="height: 1em; vertical-align: middle;">
+                                        </span>
+                                        <span>Dataset</span>
+                                    </a>
+                                </span>
+
+                                <!-- Dataset link -->
+                                <span class="link-block">
+                                    <a href="https://huggingface.co/MINT-SJTU/RoboFAC-7B" target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <img src="static/icons/huggingface.svg" alt="Hugging Face Logo"
+                                                style="height: 1em; vertical-align: middle;">
+                                        </span>
+                                        <span>Model</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+        <div class="container">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Vision-Language-Action (VLA) models have recently advanced robotic manipulation by
+                            translating natural-language instructions and image information into sequential control
+                            actions. However, these models often underperform in open-world scenarios, as they are
+                            predominantly trained on successful expert demonstrations and exhibit a limited capacity for
+                            failure recovery. In this work, we present a Robotic Failure Analysis and Correction
+                            (<b>RoboFAC</b>) framework to address this issue. Firstly, we construct RoboFAC dataset
+                            comprising 9,440 erroneous manipulation trajectories and 78,623 QA pairs across 16 diverse
+                            tasks and 53 scenes in both simulation and real-world environments. Leveraging our dataset,
+                            we develop RoboFAC model, which is capable of <b>Task Understanding</b>, <b>Failure
+                                Analysis</b> and <b>Failure Correction</b>. Experimental results demonstrate that the
+                            RoboFAC model outperforms GPT-4o by 34.1% on our evaluation benchmark. Furthermore, we
+                            integrate
+                            the RoboFAC model into a real-world VLA control pipeline as an external supervision
+                            providing correction instructions, yielding a 29.1% relative improvement on average on four
+                            real-world tasks. The results show that our RoboFAC framework effectively handles robotic
+                            failures and assists the VLA model in recovering from failures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End paper abstract -->
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">RoboFAC Framework</h2>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <div class="content">
+                        <figure class="image" style="width: 90%; margin: 0 auto;">
+                            <img src="static/images/pipeline_v3.svg" alt="RoboFAC System Architecture">
+                        </figure>
+                        <p class="has-text-centered">
+                            Overview of our RoboFAC framework.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">RoboFAC Dataset</h2>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <div class="content">
+                        <figure class="image" style="width: 90%; margin: 0 auto;">
+                            <img src="static/images/overview_v2.svg" alt="RoboFAC System Architecture">
+                        </figure>
+                        <p class="has-text-centered">
+                            Overview of RoboFAC dataset.
+                        </p>
+                        <figure class="image">
+                            <img src="static/images/dataset1.svg" alt="RoboFAC Experimental Setup">
+                        </figure>
+                        <p class="has-text-centered">
+                            Statistics of the RoboFAC Dataset.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title is-3">Dataset Video Show</h2>
+                <div class="video-carousel">
+                    <div class="video-pair">
+                        <video src="static/videos/video1.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video2.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video3.mp4" autoplay controls muted loop></video>
+                    </div>
+                    <div class="video-pair">
+                        <video src="static/videos/video4.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video5.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video6.mp4" autoplay controls muted loop></video>
+                    </div>
+                    <div class="video-pair">
+                        <video src="static/videos/video7.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video8.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video9.mp4" autoplay controls muted loop></video>
+                    </div>
+                    <div class="video-pair">
+                        <video src="static/videos/video10.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video11.mp4" autoplay controls muted loop></video>
+                        <video src="static/videos/video12.mp4" autoplay controls muted loop></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        .video-carousel {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+
+
+        .video-pair video {
+            width: 400px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 0.6rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-3 has-text-centered">Evaluation on RoboFAC Bench</h2>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <div class="content">
+                        <figure class="image">
+                            <img src="static/images/result.svg" alt="RoboFAC System Architecture">
+                        </figure>
+                        <p class="has-text-centered">
+                            Scores for different dimensions on RoboFAC Benchmark.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item">
+                        <img src="static/images/demo1.svg" alt="MY ALT TEXT" />
+                        <!-- <h2 class="subtitle has-text-centered">
+                            First image description.
+                        </h2> -->
+                    </div>
+                    <div class="item">
+                        <img src="static/images/demo2.svg" alt="MY ALT TEXT" />
+                        <!-- <h2 class="subtitle has-text-centered">
+                            Second image description.
+                        </h2> -->
+                    </div>
+                    <div class="item">
+                        <img src="static/images/demo3.svg" alt="MY ALT TEXT" />
+                        <!-- <h2 class="subtitle has-text-centered">
+                            Third image description.
+                        </h2> -->
+                    </div>
+                    <div class="item">
+                        <img src="static/images/demo4.svg" alt="MY ALT TEXT" />
+                        <!-- <h2 class="subtitle has-text-centered">
+                            Fourth image description.
+                        </h2> -->
+                    </div>
+                    <div class="item">
+                        <img src="static/images/demo5.svg" alt="MY ALT TEXT" />
+                        <!-- <h2 class="subtitle has-text-centered">
+                            Fourth image description.
+                        </h2> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-3 has-text-centered">Realworld Control Result</h2>
+            <div class="columns is-centered">
+                <div class="column is-four-fifths">
+                    <div class="content">
+                        <figure class="image" style="width: 67%; margin: 0 auto;">
+                            <img src="static/images/realworld.png" alt="RoboFAC System Architecture">
+                        </figure>
+                        <p class="has-text-centered">
+                            Success rate on real-world manipulation.
+                        </p>
+                        <figure class="image" style="width: 95%; margin: 0 auto;">
+                            <img src="static/images/realworld_demo.svg" alt="RoboFAC System Architecture">
+                        </figure>
+                        <p class="has-text-centered">
+                            Demo of failure correction in real-world tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>@misc{lu2025robofaccomprehensiveframeworkrobotic,
+      title={RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction}, 
+      author={Weifeng Lu and Minghao Ye and Zewei Ye and Ruihan Tao and Shuo Yang and Bo Zhao},
+      year={2025},
+      eprint={2505.12224},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2505.12224}, 
+}</code></pre>
+        </div>
+    </section>
+    <!--End BibTex citation -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+
+                        <p>
+                            This page was built using the <a
+                                href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                            You are free to borrow the source code of this website, we just ask that you link back to
+                            this page in the footer. <br> This website is licensed under a <a rel="license"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
